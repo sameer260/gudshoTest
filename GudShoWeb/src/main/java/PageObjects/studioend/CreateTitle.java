@@ -32,7 +32,7 @@ public class CreateTitle extends Base_setup {
 	public static List<WebElement> AllSectionsInCreateSho;
 	
 	@FindBy(xpath="//span[@class='mat-content']/mat-panel-title/h3")
-	public static List<WebElement> AllSectionsInCreateSho1;
+	public static List<WebElement> AllSectionsInCreateSho3;
 	
 	//First Section "NAME YOUR SHO OR SERIES"
 	
