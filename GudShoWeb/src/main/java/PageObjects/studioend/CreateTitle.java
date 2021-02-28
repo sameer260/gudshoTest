@@ -35,6 +35,12 @@ public class CreateTitle extends Base_setup {
 	public static List<WebElement> AllSectionsInCreateSho3;
 	
 	@FindBy(xpath="//span[@class='mat-content']/mat-panel-title/h3")
+	public static List<WebElement> AllSectionsInCreateSho5;
+	
+	@FindBy(xpath="//span[@class='mat-content']/mat-panel-title/h3")
+	public static List<WebElement> AllSectionsInCreateSho6;
+	
+	@FindBy(xpath="//span[@class='mat-content']/mat-panel-title/h3")
 	public static List<WebElement> AllSectionsInCreateSho4;
 	
 	//First Section "NAME YOUR SHO OR SERIES"
