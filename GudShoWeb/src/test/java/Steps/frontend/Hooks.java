@@ -14,6 +14,8 @@ import java.io.File;
 
 
 import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
@@ -74,36 +76,20 @@ public class Hooks extends Base_setup {
 			 }
 	}
 	
-	@After()
-	public void tearDown(Scenario scenario) {
+	@After
+	public void tearDown(Scenario scenario) throws IOException {
 	    if (scenario.isFailed()) {
 	            final byte[] screenshot = ((TakesScreenshot) driver)
 	                        .getScreenshotAs(OutputType.BYTES);
-	            scenario.embed(screenshot, "image/png"); //stick it in the report
+	            scenario.embed(screenshot, "image/png"); //stick it in the report     
 	    }
+	    
+	    
+        extentreportsgenerate.createTest(scenario);
+		extentreportsgenerate.writeareport();
 	    driver.close();
 	}
-	 static extentreportsgenerate customreporter;
-	 static boolean isRunning;
-	 
-	@Before
-	public void beforescenario()
-	{
-		if(!isRunning)
-		{
-			customreporter=new extentreportsgenerate("Extenreports//Testreport.html");
-			isRunning=true;
-		}
-	}
-	@After
-	public void aftersceario(Scenario scenario) throws IOException
-	{
 	
-		extentreportsgenerate.createTest(scenario);
-		extentreportsgenerate.writeareport();
-		
-
-	}
 	
 }
 	

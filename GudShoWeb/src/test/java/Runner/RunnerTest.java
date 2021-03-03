@@ -42,7 +42,7 @@ public class RunnerTest extends Base_setup
 	@BeforeClass
 	public static void logger() {
 
-		
+		 new extentreportsgenerate("Extenreports//Testreport.html");
 		PropertyConfigurator.configure("log4j.properties");
 
 	}
