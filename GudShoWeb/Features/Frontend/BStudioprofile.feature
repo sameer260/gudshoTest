@@ -10,9 +10,9 @@ Then See studioinfo and click back
  
 Examples:
 |keyword    |shoseries or studioname|
-|sameer     |Sameer1                | 
+|sameer     |Sameer                | 
 
-@test1
+
 Scenario Outline: Adding a sho or series to watch list from studio profile page
 Given In search enter <keyword> and select wanted <shoseries or studioname>
 When It should redirect to the correct <shoseries or studioname> page

@@ -39,6 +39,7 @@ import Resources.Base_setup;
 import cucumber.api.Scenario;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
+import testresources.extentreportsgenerate;
 
 
 
@@ -82,7 +83,28 @@ public class Hooks extends Base_setup {
 	    }
 	    driver.close();
 	}
+	 static extentreportsgenerate customreporter;
+	 static boolean isRunning;
+	 
+	@Before
+	public void beforescenario()
+	{
+		if(!isRunning)
+		{
+			customreporter=new extentreportsgenerate("Extenreports//Testreport.html");
+			isRunning=true;
+		}
+	}
+	@After
+	public void aftersceario(Scenario scenario) throws IOException
+	{
+	
+		extentreportsgenerate.createTest(scenario);
+		extentreportsgenerate.writeareport();
+		
 
+	}
+	
 }
 	
 

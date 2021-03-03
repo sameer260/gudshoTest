@@ -30,3 +30,300 @@ Followers
 2021-03-03 16:28:38 INFO  Studioprofilesteps:105 - The sho or series added to the watch list is :RRR-2
 2021-03-03 16:28:39 INFO  Toastmessageanderrormessagesteps:36 - Expected toast message:Rrr-2 has been added to watchlist
 2021-03-03 16:28:39 INFO  Toastmessageanderrormessagesteps:37 - Actual Toast message displayed as:Rrr-2 has been added to watchlist
+2021-03-03 16:53:12 INFO  Studioprofilesteps:57 - Actual Studio name on the studio detail page:Sameer
+2021-03-03 16:53:12 INFO  Studioprofilesteps:58 - Expected Studio name is:Sameer
+2021-03-03 16:53:19 INFO  Studioprofile:140 - Sho or series name which is going to add to atch list is:RRR-2
+2021-03-03 16:53:22 INFO  Studioprofile:146 - Sho or series name added to watch list is :RRR-2
+2021-03-03 16:53:22 INFO  Studioprofilesteps:105 - The sho or series added to the watch list is :RRR-2
+2021-03-03 16:53:23 INFO  Toastmessageanderrormessagesteps:36 - Expected toast message:Rrr-2 has been added to watchlist
+2021-03-03 16:53:23 INFO  Toastmessageanderrormessagesteps:37 - Actual Toast message displayed as:Rrr-2 has been removed from watchlist
+2021-03-03 17:44:15 INFO  Studioprofilesteps:57 - Actual Studio name on the studio detail page:Sameer
+2021-03-03 17:44:15 INFO  Studioprofilesteps:58 - Expected Studio name is:Sameer
+2021-03-03 17:44:15 INFO  Studioprofilesteps:84 - Profileimage is dipslayed
+2021-03-03 17:44:15 INFO  Studioprofilesteps:86 - Shocount is dipslayed
+2021-03-03 17:44:15 INFO  Studioprofilesteps:88 - Shocount is :41
+Shos
+2021-03-03 17:44:15 INFO  Studioprofilesteps:90 - Series count is dipslayed
+2021-03-03 17:44:15 INFO  Studioprofilesteps:92 - Seriescount is :15
+Series
+2021-03-03 17:44:15 INFO  Studioprofilesteps:94 - Followers count is dipslayed
+2021-03-03 17:44:16 INFO  Studioprofilesteps:96 - Followers count is :203
+Followers
+2021-03-03 17:44:16 INFO  Studioprofilesteps:98 - Studo info icon is dipslayed
+2021-03-03 17:44:16 INFO  Studioprofilesteps:64 - Cliked on the Studi info icon
+2021-03-03 17:44:16 INFO  Studioprofilesteps:71 - Studio description is displayed is dipslayed
+2021-03-03 17:44:16 INFO  Studioprofilesteps:73 - Studio Description: Sameer Studios has produced more Shos and WebSeries from south indian.This is famous studio from south india especially in Telugu and Tamil,kannada and malyam movies
+2021-03-03 17:44:16 INFO  Studioprofilesteps:76 - Cliked on back button from studio info popup
+2021-03-03 17:44:16 INFO  Studioprofilesteps:78 - Followers count is dipslayed
+2021-03-03 17:44:50 INFO  Studioprofilesteps:57 - Actual Studio name on the studio detail page:Sameer
+2021-03-03 17:44:50 INFO  Studioprofilesteps:58 - Expected Studio name is:Sameer
+2021-03-03 17:44:58 INFO  Studioprofile:140 - Sho or series name which is going to add to atch list is:RRR-2
+2021-03-03 17:45:01 INFO  Studioprofile:146 - Sho or series name added to watch list is :RRR-2
+2021-03-03 17:45:01 INFO  Studioprofilesteps:105 - The sho or series added to the watch list is :RRR-2
+2021-03-03 17:45:02 INFO  Toastmessageanderrormessagesteps:36 - Expected toast message:Rrr-2 has been added to watchlist
+2021-03-03 17:45:02 INFO  Toastmessageanderrormessagesteps:37 - Actual Toast message displayed as:Rrr-2 has been added to watchlist
+2021-03-03 17:47:13 INFO  Studioprofilesteps:57 - Actual Studio name on the studio detail page:Sameer
+2021-03-03 17:47:13 INFO  Studioprofilesteps:58 - Expected Studio name is:Sameer
+2021-03-03 17:47:13 INFO  Studioprofilesteps:84 - Profileimage is dipslayed
+2021-03-03 17:47:13 INFO  Studioprofilesteps:86 - Shocount is dipslayed
+2021-03-03 17:47:13 INFO  Studioprofilesteps:88 - Shocount is :41
+Shos
+2021-03-03 17:47:13 INFO  Studioprofilesteps:90 - Series count is dipslayed
+2021-03-03 17:47:13 INFO  Studioprofilesteps:92 - Seriescount is :15
+Series
+2021-03-03 17:47:14 INFO  Studioprofilesteps:94 - Followers count is dipslayed
+2021-03-03 17:47:14 INFO  Studioprofilesteps:96 - Followers count is :203
+Followers
+2021-03-03 17:47:14 INFO  Studioprofilesteps:98 - Studo info icon is dipslayed
+2021-03-03 17:47:14 INFO  Studioprofilesteps:64 - Cliked on the Studi info icon
+2021-03-03 17:47:14 INFO  Studioprofilesteps:71 - Studio description is displayed is dipslayed
+2021-03-03 17:47:14 INFO  Studioprofilesteps:73 - Studio Description: Sameer Studios has produced more Shos and WebSeries from south indian.This is famous studio from south india especially in Telugu and Tamil,kannada and malyam movies
+2021-03-03 17:47:14 INFO  Studioprofilesteps:76 - Cliked on back button from studio info popup
+2021-03-03 17:47:14 INFO  Studioprofilesteps:78 - Followers count is dipslayed
+2021-03-03 17:47:49 INFO  Studioprofilesteps:57 - Actual Studio name on the studio detail page:Sameer
+2021-03-03 17:47:49 INFO  Studioprofilesteps:58 - Expected Studio name is:Sameer
+2021-03-03 17:47:58 INFO  Studioprofile:140 - Sho or series name which is going to add to atch list is:RRR-2
+2021-03-03 17:48:02 INFO  Studioprofile:146 - Sho or series name added to watch list is :RRR-2
+2021-03-03 17:48:02 INFO  Studioprofilesteps:105 - The sho or series added to the watch list is :RRR-2
+2021-03-03 17:48:03 INFO  Toastmessageanderrormessagesteps:36 - Expected toast message:Rrr-2 has been added to watchlist
+2021-03-03 17:48:03 INFO  Toastmessageanderrormessagesteps:37 - Actual Toast message displayed as:Rrr-2 has been removed from watchlist
+2021-03-03 17:49:39 INFO  Studioprofilesteps:57 - Actual Studio name on the studio detail page:Sameer
+2021-03-03 17:49:39 INFO  Studioprofilesteps:58 - Expected Studio name is:Sameer
+2021-03-03 17:49:39 INFO  Studioprofilesteps:84 - Profileimage is dipslayed
+2021-03-03 17:49:39 INFO  Studioprofilesteps:86 - Shocount is dipslayed
+2021-03-03 17:49:39 INFO  Studioprofilesteps:88 - Shocount is :41
+Shos
+2021-03-03 17:49:39 INFO  Studioprofilesteps:90 - Series count is dipslayed
+2021-03-03 17:49:40 INFO  Studioprofilesteps:92 - Seriescount is :15
+Series
+2021-03-03 17:49:40 INFO  Studioprofilesteps:94 - Followers count is dipslayed
+2021-03-03 17:49:40 INFO  Studioprofilesteps:96 - Followers count is :203
+Followers
+2021-03-03 17:49:40 INFO  Studioprofilesteps:98 - Studo info icon is dipslayed
+2021-03-03 17:49:40 INFO  Studioprofilesteps:64 - Cliked on the Studi info icon
+2021-03-03 17:49:40 INFO  Studioprofilesteps:71 - Studio description is displayed is dipslayed
+2021-03-03 17:49:40 INFO  Studioprofilesteps:73 - Studio Description: Sameer Studios has produced more Shos and WebSeries from south indian.This is famous studio from south india especially in Telugu and Tamil,kannada and malyam movies
+2021-03-03 17:49:40 INFO  Studioprofilesteps:76 - Cliked on back button from studio info popup
+2021-03-03 17:49:40 INFO  Studioprofilesteps:78 - Followers count is dipslayed
+2021-03-03 17:49:53 INFO  Studioprofilesteps:57 - Actual Studio name on the studio detail page:Sameer
+2021-03-03 17:49:53 INFO  Studioprofilesteps:58 - Expected Studio name is:Sameer
+2021-03-03 17:50:01 INFO  Studioprofile:140 - Sho or series name which is going to add to atch list is:RRR-2
+2021-03-03 17:50:05 INFO  Studioprofile:146 - Sho or series name added to watch list is :RRR-2
+2021-03-03 17:50:05 INFO  Studioprofilesteps:105 - The sho or series added to the watch list is :RRR-2
+2021-03-03 17:50:06 INFO  Toastmessageanderrormessagesteps:36 - Expected toast message:Rrr-2 has been added to watchlist
+2021-03-03 17:50:06 INFO  Toastmessageanderrormessagesteps:37 - Actual Toast message displayed as:Rrr-2 has been added to watchlist
+2021-03-03 17:52:38 INFO  Studioprofilesteps:57 - Actual Studio name on the studio detail page:Sameer
+2021-03-03 17:52:38 INFO  Studioprofilesteps:58 - Expected Studio name is:Sameer
+2021-03-03 17:52:38 INFO  Studioprofilesteps:84 - Profileimage is dipslayed
+2021-03-03 17:52:38 INFO  Studioprofilesteps:86 - Shocount is dipslayed
+2021-03-03 17:52:38 INFO  Studioprofilesteps:88 - Shocount is :41
+Shos
+2021-03-03 17:52:38 INFO  Studioprofilesteps:90 - Series count is dipslayed
+2021-03-03 17:52:38 INFO  Studioprofilesteps:92 - Seriescount is :15
+Series
+2021-03-03 17:52:38 INFO  Studioprofilesteps:94 - Followers count is dipslayed
+2021-03-03 17:52:38 INFO  Studioprofilesteps:96 - Followers count is :203
+Followers
+2021-03-03 17:52:38 INFO  Studioprofilesteps:98 - Studo info icon is dipslayed
+2021-03-03 17:52:39 INFO  Studioprofilesteps:64 - Cliked on the Studi info icon
+2021-03-03 17:52:39 INFO  Studioprofilesteps:71 - Studio description is displayed is dipslayed
+2021-03-03 17:52:39 INFO  Studioprofilesteps:73 - Studio Description: Sameer Studios has produced more Shos and WebSeries from south indian.This is famous studio from south india especially in Telugu and Tamil,kannada and malyam movies
+2021-03-03 17:52:39 INFO  Studioprofilesteps:76 - Cliked on back button from studio info popup
+2021-03-03 17:52:39 INFO  Studioprofilesteps:78 - Followers count is dipslayed
+2021-03-03 17:52:52 INFO  Studioprofilesteps:57 - Actual Studio name on the studio detail page:Sameer
+2021-03-03 17:52:52 INFO  Studioprofilesteps:58 - Expected Studio name is:Sameer
+2021-03-03 17:53:00 INFO  Studioprofile:140 - Sho or series name which is going to add to atch list is:RRR-2
+2021-03-03 17:53:03 INFO  Studioprofile:146 - Sho or series name added to watch list is :RRR-2
+2021-03-03 17:53:03 INFO  Studioprofilesteps:105 - The sho or series added to the watch list is :RRR-2
+2021-03-03 17:53:05 INFO  Toastmessageanderrormessagesteps:36 - Expected toast message:Rrr-2 has been added to watchlist
+2021-03-03 17:53:05 INFO  Toastmessageanderrormessagesteps:37 - Actual Toast message displayed as:Rrr-2 has been removed from watchlist
+2021-03-03 17:55:36 INFO  Studioprofilesteps:57 - Actual Studio name on the studio detail page:Sameer
+2021-03-03 17:55:36 INFO  Studioprofilesteps:58 - Expected Studio name is:Sameer
+2021-03-03 17:55:36 INFO  Studioprofilesteps:84 - Profileimage is dipslayed
+2021-03-03 17:55:36 INFO  Studioprofilesteps:86 - Shocount is dipslayed
+2021-03-03 17:55:36 INFO  Studioprofilesteps:88 - Shocount is :41
+Shos
+2021-03-03 17:55:36 INFO  Studioprofilesteps:90 - Series count is dipslayed
+2021-03-03 17:55:36 INFO  Studioprofilesteps:92 - Seriescount is :15
+Series
+2021-03-03 17:55:36 INFO  Studioprofilesteps:94 - Followers count is dipslayed
+2021-03-03 17:55:36 INFO  Studioprofilesteps:96 - Followers count is :203
+Followers
+2021-03-03 17:55:37 INFO  Studioprofilesteps:98 - Studo info icon is dipslayed
+2021-03-03 17:55:37 INFO  Studioprofilesteps:64 - Cliked on the Studi info icon
+2021-03-03 17:55:37 INFO  Studioprofilesteps:71 - Studio description is displayed is dipslayed
+2021-03-03 17:55:37 INFO  Studioprofilesteps:73 - Studio Description: Sameer Studios has produced more Shos and WebSeries from south indian.This is famous studio from south india especially in Telugu and Tamil,kannada and malyam movies
+2021-03-03 17:55:37 INFO  Studioprofilesteps:76 - Cliked on back button from studio info popup
+2021-03-03 17:55:37 INFO  Studioprofilesteps:78 - Followers count is dipslayed
+2021-03-03 17:55:51 INFO  Studioprofilesteps:57 - Actual Studio name on the studio detail page:Sameer
+2021-03-03 17:55:51 INFO  Studioprofilesteps:58 - Expected Studio name is:Sameer
+2021-03-03 17:55:59 INFO  Studioprofile:140 - Sho or series name which is going to add to atch list is:RRR-2
+2021-03-03 17:56:02 INFO  Studioprofile:146 - Sho or series name added to watch list is :RRR-2
+2021-03-03 17:56:02 INFO  Studioprofilesteps:105 - The sho or series added to the watch list is :RRR-2
+2021-03-03 17:56:04 INFO  Toastmessageanderrormessagesteps:36 - Expected toast message:Rrr-2 has been added to watchlist
+2021-03-03 17:56:04 INFO  Toastmessageanderrormessagesteps:37 - Actual Toast message displayed as:Rrr-2 has been added to watchlist
+2021-03-03 17:58:11 INFO  Studioprofilesteps:57 - Actual Studio name on the studio detail page:Sameer
+2021-03-03 17:58:11 INFO  Studioprofilesteps:58 - Expected Studio name is:Sameer
+2021-03-03 17:58:11 INFO  Studioprofilesteps:84 - Profileimage is dipslayed
+2021-03-03 17:58:12 INFO  Studioprofilesteps:86 - Shocount is dipslayed
+2021-03-03 17:58:12 INFO  Studioprofilesteps:88 - Shocount is :41
+Shos
+2021-03-03 17:58:12 INFO  Studioprofilesteps:90 - Series count is dipslayed
+2021-03-03 17:58:12 INFO  Studioprofilesteps:92 - Seriescount is :15
+Series
+2021-03-03 17:58:12 INFO  Studioprofilesteps:94 - Followers count is dipslayed
+2021-03-03 17:58:12 INFO  Studioprofilesteps:96 - Followers count is :203
+Followers
+2021-03-03 17:58:12 INFO  Studioprofilesteps:98 - Studo info icon is dipslayed
+2021-03-03 17:58:14 INFO  Studioprofilesteps:64 - Cliked on the Studi info icon
+2021-03-03 17:58:14 INFO  Studioprofilesteps:71 - Studio description is displayed is dipslayed
+2021-03-03 17:58:14 INFO  Studioprofilesteps:73 - Studio Description: Sameer Studios has produced more Shos and WebSeries from south indian.This is famous studio from south india especially in Telugu and Tamil,kannada and malyam movies
+2021-03-03 17:58:15 INFO  Studioprofilesteps:76 - Cliked on back button from studio info popup
+2021-03-03 17:58:15 INFO  Studioprofilesteps:78 - Followers count is dipslayed
+2021-03-03 17:58:50 INFO  Studioprofilesteps:57 - Actual Studio name on the studio detail page:Sameer
+2021-03-03 17:58:50 INFO  Studioprofilesteps:58 - Expected Studio name is:Sameer
+2021-03-03 17:58:58 INFO  Studioprofile:140 - Sho or series name which is going to add to atch list is:RRR-2
+2021-03-03 17:59:01 INFO  Studioprofile:146 - Sho or series name added to watch list is :RRR-2
+2021-03-03 17:59:01 INFO  Studioprofilesteps:105 - The sho or series added to the watch list is :RRR-2
+2021-03-03 17:59:02 INFO  Toastmessageanderrormessagesteps:36 - Expected toast message:Rrr-2 has been added to watchlist
+2021-03-03 17:59:02 INFO  Toastmessageanderrormessagesteps:37 - Actual Toast message displayed as:Rrr-2 has been removed from watchlist
+2021-03-03 18:18:40 INFO  Studioprofilesteps:57 - Actual Studio name on the studio detail page:Sameer
+2021-03-03 18:18:40 INFO  Studioprofilesteps:58 - Expected Studio name is:Sameer
+2021-03-03 18:18:40 INFO  Studioprofilesteps:84 - Profileimage is dipslayed
+2021-03-03 18:18:40 INFO  Studioprofilesteps:86 - Shocount is dipslayed
+2021-03-03 18:18:41 INFO  Studioprofilesteps:88 - Shocount is :41
+Shos
+2021-03-03 18:18:41 INFO  Studioprofilesteps:90 - Series count is dipslayed
+2021-03-03 18:18:41 INFO  Studioprofilesteps:92 - Seriescount is :15
+Series
+2021-03-03 18:18:41 INFO  Studioprofilesteps:94 - Followers count is dipslayed
+2021-03-03 18:18:41 INFO  Studioprofilesteps:96 - Followers count is :203
+Followers
+2021-03-03 18:18:41 INFO  Studioprofilesteps:98 - Studo info icon is dipslayed
+2021-03-03 18:18:41 INFO  Studioprofilesteps:64 - Cliked on the Studi info icon
+2021-03-03 18:18:41 INFO  Studioprofilesteps:71 - Studio description is displayed is dipslayed
+2021-03-03 18:18:41 INFO  Studioprofilesteps:73 - Studio Description: Sameer Studios has produced more Shos and WebSeries from south indian.This is famous studio from south india especially in Telugu and Tamil,kannada and malyam movies
+2021-03-03 18:18:41 INFO  Studioprofilesteps:76 - Cliked on back button from studio info popup
+2021-03-03 18:18:41 INFO  Studioprofilesteps:78 - Followers count is dipslayed
+2021-03-03 18:18:55 INFO  Studioprofilesteps:57 - Actual Studio name on the studio detail page:Sameer
+2021-03-03 18:18:55 INFO  Studioprofilesteps:58 - Expected Studio name is:Sameer
+2021-03-03 18:19:03 INFO  Studioprofile:140 - Sho or series name which is going to add to atch list is:RRR-2
+2021-03-03 18:19:06 INFO  Studioprofile:146 - Sho or series name added to watch list is :RRR-2
+2021-03-03 18:19:06 INFO  Studioprofilesteps:105 - The sho or series added to the watch list is :RRR-2
+2021-03-03 18:19:07 INFO  Toastmessageanderrormessagesteps:36 - Expected toast message:Rrr-2 has been added to watchlist
+2021-03-03 18:19:07 INFO  Toastmessageanderrormessagesteps:37 - Actual Toast message displayed as:Rrr-2 has been added to watchlist
+2021-03-03 18:22:35 INFO  Studioprofilesteps:57 - Actual Studio name on the studio detail page:Sameer
+2021-03-03 18:22:35 INFO  Studioprofilesteps:58 - Expected Studio name is:Sameer
+2021-03-03 18:22:43 INFO  Studioprofile:140 - Sho or series name which is going to add to atch list is:RRR-2
+2021-03-03 18:22:46 INFO  Studioprofile:146 - Sho or series name added to watch list is :RRR-2
+2021-03-03 18:22:46 INFO  Studioprofilesteps:105 - The sho or series added to the watch list is :RRR-2
+2021-03-03 18:22:48 INFO  Toastmessageanderrormessagesteps:36 - Expected toast message:Rrr-2 has been added to watchlist
+2021-03-03 18:22:48 INFO  Toastmessageanderrormessagesteps:37 - Actual Toast message displayed as:Rrr-2 has been removed from watchlist
+2021-03-03 18:26:26 INFO  Studioprofilesteps:57 - Actual Studio name on the studio detail page:Sameer
+2021-03-03 18:26:26 INFO  Studioprofilesteps:58 - Expected Studio name is:Sameer
+2021-03-03 18:26:26 INFO  Studioprofilesteps:84 - Profileimage is dipslayed
+2021-03-03 18:26:26 INFO  Studioprofilesteps:86 - Shocount is dipslayed
+2021-03-03 18:26:26 INFO  Studioprofilesteps:88 - Shocount is :41
+Shos
+2021-03-03 18:26:26 INFO  Studioprofilesteps:90 - Series count is dipslayed
+2021-03-03 18:26:26 INFO  Studioprofilesteps:92 - Seriescount is :15
+Series
+2021-03-03 18:26:26 INFO  Studioprofilesteps:94 - Followers count is dipslayed
+2021-03-03 18:26:26 INFO  Studioprofilesteps:96 - Followers count is :203
+Followers
+2021-03-03 18:26:26 INFO  Studioprofilesteps:98 - Studo info icon is dipslayed
+2021-03-03 18:26:26 INFO  Studioprofilesteps:64 - Cliked on the Studi info icon
+2021-03-03 18:26:26 INFO  Studioprofilesteps:71 - Studio description is displayed is dipslayed
+2021-03-03 18:26:26 INFO  Studioprofilesteps:73 - Studio Description: Sameer Studios has produced more Shos and WebSeries from south indian.This is famous studio from south india especially in Telugu and Tamil,kannada and malyam movies
+2021-03-03 18:26:27 INFO  Studioprofilesteps:76 - Cliked on back button from studio info popup
+2021-03-03 18:26:27 INFO  Studioprofilesteps:78 - Followers count is dipslayed
+2021-03-03 19:38:26 INFO  Studioprofilesteps:57 - Actual Studio name on the studio detail page:Sameer
+2021-03-03 19:38:26 INFO  Studioprofilesteps:58 - Expected Studio name is:Sameer
+2021-03-03 19:38:26 INFO  Studioprofilesteps:84 - Profileimage is dipslayed
+2021-03-03 19:38:26 INFO  Studioprofilesteps:86 - Shocount is dipslayed
+2021-03-03 19:38:26 INFO  Studioprofilesteps:88 - Shocount is :41
+Shos
+2021-03-03 19:38:26 INFO  Studioprofilesteps:90 - Series count is dipslayed
+2021-03-03 19:38:26 INFO  Studioprofilesteps:92 - Seriescount is :15
+Series
+2021-03-03 19:38:26 INFO  Studioprofilesteps:94 - Followers count is dipslayed
+2021-03-03 19:38:26 INFO  Studioprofilesteps:96 - Followers count is :203
+Followers
+2021-03-03 19:38:26 INFO  Studioprofilesteps:98 - Studo info icon is dipslayed
+2021-03-03 19:38:26 INFO  Studioprofilesteps:64 - Cliked on the Studi info icon
+2021-03-03 19:38:26 INFO  Studioprofilesteps:71 - Studio description is displayed is dipslayed
+2021-03-03 19:38:26 INFO  Studioprofilesteps:73 - Studio Description: Sameer Studios has produced more Shos and WebSeries from south indian.This is famous studio from south india especially in Telugu and Tamil,kannada and malyam movies
+2021-03-03 19:38:27 INFO  Studioprofilesteps:76 - Cliked on back button from studio info popup
+2021-03-03 19:38:27 INFO  Studioprofilesteps:78 - Followers count is dipslayed
+2021-03-03 19:40:51 INFO  Studioprofilesteps:57 - Actual Studio name on the studio detail page:Sameer
+2021-03-03 19:40:51 INFO  Studioprofilesteps:58 - Expected Studio name is:Sameer
+2021-03-03 19:40:51 INFO  Studioprofilesteps:84 - Profileimage is dipslayed
+2021-03-03 19:40:51 INFO  Studioprofilesteps:86 - Shocount is dipslayed
+2021-03-03 19:40:51 INFO  Studioprofilesteps:88 - Shocount is :41
+Shos
+2021-03-03 19:40:52 INFO  Studioprofilesteps:90 - Series count is dipslayed
+2021-03-03 19:40:52 INFO  Studioprofilesteps:92 - Seriescount is :15
+Series
+2021-03-03 19:40:52 INFO  Studioprofilesteps:94 - Followers count is dipslayed
+2021-03-03 19:40:52 INFO  Studioprofilesteps:96 - Followers count is :203
+Followers
+2021-03-03 19:40:52 INFO  Studioprofilesteps:98 - Studo info icon is dipslayed
+2021-03-03 19:40:52 INFO  Studioprofilesteps:64 - Cliked on the Studi info icon
+2021-03-03 19:40:52 INFO  Studioprofilesteps:71 - Studio description is displayed is dipslayed
+2021-03-03 19:40:52 INFO  Studioprofilesteps:73 - Studio Description: Sameer Studios has produced more Shos and WebSeries from south indian.This is famous studio from south india especially in Telugu and Tamil,kannada and malyam movies
+2021-03-03 19:40:53 INFO  Studioprofilesteps:76 - Cliked on back button from studio info popup
+2021-03-03 19:40:53 INFO  Studioprofilesteps:78 - Followers count is dipslayed
+2021-03-03 19:44:48 INFO  Studioprofilesteps:57 - Actual Studio name on the studio detail page:Sameer
+2021-03-03 19:44:48 INFO  Studioprofilesteps:58 - Expected Studio name is:Sameer
+2021-03-03 19:44:48 INFO  Studioprofilesteps:84 - Profileimage is dipslayed
+2021-03-03 19:44:49 INFO  Studioprofilesteps:86 - Shocount is dipslayed
+2021-03-03 19:44:49 INFO  Studioprofilesteps:88 - Shocount is :41
+Shos
+2021-03-03 19:44:49 INFO  Studioprofilesteps:90 - Series count is dipslayed
+2021-03-03 19:44:49 INFO  Studioprofilesteps:92 - Seriescount is :15
+Series
+2021-03-03 19:44:49 INFO  Studioprofilesteps:94 - Followers count is dipslayed
+2021-03-03 19:44:49 INFO  Studioprofilesteps:96 - Followers count is :203
+Followers
+2021-03-03 19:44:49 INFO  Studioprofilesteps:98 - Studo info icon is dipslayed
+2021-03-03 19:44:49 INFO  Studioprofilesteps:64 - Cliked on the Studi info icon
+2021-03-03 19:44:49 INFO  Studioprofilesteps:71 - Studio description is displayed is dipslayed
+2021-03-03 19:44:49 INFO  Studioprofilesteps:73 - Studio Description: Sameer Studios has produced more Shos and WebSeries from south indian.This is famous studio from south india especially in Telugu and Tamil,kannada and malyam movies
+2021-03-03 19:44:50 INFO  Studioprofilesteps:76 - Cliked on back button from studio info popup
+2021-03-03 19:44:50 INFO  Studioprofilesteps:78 - Followers count is dipslayed
+2021-03-03 19:49:22 INFO  Studioprofilesteps:57 - Actual Studio name on the studio detail page:Sameer
+2021-03-03 19:49:22 INFO  Studioprofilesteps:58 - Expected Studio name is:Sameer
+2021-03-03 19:49:22 INFO  Studioprofilesteps:84 - Profileimage is dipslayed
+2021-03-03 19:49:22 INFO  Studioprofilesteps:86 - Shocount is dipslayed
+2021-03-03 19:49:22 INFO  Studioprofilesteps:88 - Shocount is :41
+Shos
+2021-03-03 19:49:22 INFO  Studioprofilesteps:90 - Series count is dipslayed
+2021-03-03 19:49:22 INFO  Studioprofilesteps:92 - Seriescount is :15
+Series
+2021-03-03 19:49:22 INFO  Studioprofilesteps:94 - Followers count is dipslayed
+2021-03-03 19:49:22 INFO  Studioprofilesteps:96 - Followers count is :203
+Followers
+2021-03-03 19:49:22 INFO  Studioprofilesteps:98 - Studo info icon is dipslayed
+2021-03-03 19:49:22 INFO  Studioprofilesteps:64 - Cliked on the Studi info icon
+2021-03-03 19:49:22 INFO  Studioprofilesteps:71 - Studio description is displayed is dipslayed
+2021-03-03 19:49:22 INFO  Studioprofilesteps:73 - Studio Description: Sameer Studios has produced more Shos and WebSeries from south indian.This is famous studio from south india especially in Telugu and Tamil,kannada and malyam movies
+2021-03-03 19:49:23 INFO  Studioprofilesteps:76 - Cliked on back button from studio info popup
+2021-03-03 19:49:23 INFO  Studioprofilesteps:78 - Followers count is dipslayed
+2021-03-03 19:54:30 INFO  Studioprofilesteps:57 - Actual Studio name on the studio detail page:Sameer
+2021-03-03 19:54:30 INFO  Studioprofilesteps:58 - Expected Studio name is:Sameer
+2021-03-03 19:54:30 INFO  Studioprofilesteps:84 - Profileimage is dipslayed
+2021-03-03 19:54:30 INFO  Studioprofilesteps:86 - Shocount is dipslayed
+2021-03-03 19:54:30 INFO  Studioprofilesteps:88 - Shocount is :41
+Shos
+2021-03-03 19:54:30 INFO  Studioprofilesteps:90 - Series count is dipslayed
+2021-03-03 19:54:30 INFO  Studioprofilesteps:92 - Seriescount is :15
+Series
+2021-03-03 19:54:30 INFO  Studioprofilesteps:94 - Followers count is dipslayed
+2021-03-03 19:54:30 INFO  Studioprofilesteps:96 - Followers count is :203
+Followers
+2021-03-03 19:54:30 INFO  Studioprofilesteps:98 - Studo info icon is dipslayed
+2021-03-03 19:54:30 INFO  Studioprofilesteps:64 - Cliked on the Studi info icon
+2021-03-03 19:54:30 INFO  Studioprofilesteps:71 - Studio description is displayed is dipslayed
+2021-03-03 19:54:30 INFO  Studioprofilesteps:73 - Studio Description: Sameer Studios has produced more Shos and WebSeries from south indian.This is famous studio from south india especially in Telugu and Tamil,kannada and malyam movies
+2021-03-03 19:54:31 INFO  Studioprofilesteps:76 - Cliked on back button from studio info popup
+2021-03-03 19:54:31 INFO  Studioprofilesteps:78 - Followers count is dipslayed
