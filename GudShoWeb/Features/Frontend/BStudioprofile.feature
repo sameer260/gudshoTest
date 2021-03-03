@@ -1,6 +1,6 @@
 Feature: Functionality to Studio profile frontend
 
-
+@fail1
 Scenario Outline: To check the Studio info including the followers count,sho and series count
 Given In search enter <keyword> and select wanted <shoseries or studioname>  
 When It should redirect to the correct <shoseries or studioname> page

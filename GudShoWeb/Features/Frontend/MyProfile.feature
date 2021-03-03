@@ -1,5 +1,6 @@
 Feature: This is to test the myprofile elements and naviagation on all pages 
 
+
 Scenario: Verify the my profile elements availibility on home page 
 	Then hover on my profile 
 	And Navigate to my accounts and get profName and mobile number 
@@ -7,7 +8,7 @@ Scenario: Verify the my profile elements availibility on home page
 	And Validate dark them check box 
 	And Validate Account and setting, help, signOut and my studio 
 	
-	
+
 Scenario: Verify that user able to click on accounts and settings from home page 
 	Then hover on my profile 
 	And click on accounts and settings and verify page redirection 

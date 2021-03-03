@@ -12,6 +12,7 @@ import java.io.File;
 
 
 
+
 import java.io.IOException;
 
 import org.apache.commons.io.FileUtils;
@@ -47,7 +48,7 @@ public class Hooks extends Base_setup {
 	static Loginandsignup ls=new Loginandsignup();
 	
 	public static String actual;
-	@Before("~@nohook")
+	@Before("not @nohook")
 	public static void loginapplication() throws InterruptedException, IOException
 	{
 		Base_setup.intiliazedriver();

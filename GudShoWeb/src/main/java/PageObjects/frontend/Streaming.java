@@ -17,37 +17,37 @@ public class Streaming extends Base_setup
 {
 	
 	 static By streamingtab=By.xpath("//div[@role='tablist']/div/div[1]");
-	private static By streamingpagetitles=By.xpath("//div[@class='slider-header flex justify-content-between']/h4");
-	private static By shocardnames=By.xpath("//div[@class='card-sho']");
-	private static By shocards=By.xpath("//div[@class='card-main vertical-card']/div[1]");
-	private static By Shonameonshocards=By.xpath("//div[@class='hover-sho-detail ng-star-inserted']/div");
-	private static By shoorserieslabelonshocards=By.xpath("//span[@class='wl-sho card-badge badge full-badge sho ng-star-inserted']");
-	private static By generenameonshocard=By.xpath("//ul[@class='ng-star-inserted']/li[1]");
-	private static By maturityratingonshocard=By.xpath("//ul[@class='ng-star-inserted']/li[2]/span");
-	private static By videoduration=By.xpath("//ul[@class='ng-star-inserted']/li[3]");
-	private static By rowsliders=By.xpath("//div[@class='slider-content']");
-	private static By nextarrow=By.xpath("//div[@class='arrow-next-prev']/div[1]");
-	private static By backarrow=By.xpath("//span[@class='back-icon cursor']");
-	private static By promonames=By.xpath("//div[@class='card-footer flex justify-content-between ng-star-inserted']/div/h4");
-	private static By shoorseriesnameonprmocard=By.xpath("//div[@class='card-left video-promo']/p[1]");
-	private static By viewcount=By.xpath("//p[@class='views ng-star-inserted']");
-	private static By gudcount=By.xpath("//span[@class='gud-count']");
-	private static By mousehoveronpromocards=By.xpath("//div[@class='card-main promo-card-content sho-promocard']");
-	private static By studioname=By.xpath("//div[@class='card-left box-promo']/a/h6");
-	private static By followerscount=By.xpath("//div[@class='card-left box-promo']/p");
-	private static By followbutton=By.xpath("//app-follow-studios[@class='ng-star-inserted']");
-	private static By studiocards=By.xpath("//div[@class='card-main studio-card-content']");
-	private static By audionames=By.xpath("//div[@class='card-main audio-card-content']//div[2]/div/div/h4");
-	private static By composernameinaudio=By.xpath("//div[@class='card-left width-full']/span");
-	private static By audiocards=By.xpath("//div[@class='card-main audio-card-content']");
-	private static By promoshareicon=By.xpath("//div[@class='hover-share flex align-items-center justify-content-center ng-star-inserted']");
-	private static By promonamesnpromopage=By.xpath("//div[@class='card-left box-promo']/h4");
-	private static By viewcountnpromopage=By.xpath("//div[@class='card-right box-promo ng-star-inserted']/span");
-	private static By watchlistbutton=By.xpath("//div[@class='follow-btn ng-star-inserted']");
-	private static By tooltiponwatchlater=By.xpath("//div[@class='follow-btn ng-star-inserted']/app-watch-later/div/span");
-	private static By shoorspisoesnameincontinuewatching=By.xpath("//div[@class='card-left width-full box-promo']");
-	private static By continuewatchingcads=By.xpath("//div[@class='see-all-image cursor']");
-	private static By crossicononcontinuewatching=By.xpath("//div[@class='see-all-image cursor']/div/span");
+	public static By streamingpagetitles=By.xpath("//div[@class='slider-header flex justify-content-between']/h4");
+	public static By shocardnames=By.xpath("//div[@class='card-sho']");
+	public static By shocards=By.xpath("//div[@class='card-main vertical-card']/div[1]");
+	public static By Shonameonshocards=By.xpath("//div[@class='hover-sho-detail ng-star-inserted']/div");
+	public static By shoorserieslabelonshocards=By.xpath("//span[@class='wl-sho card-badge badge full-badge sho ng-star-inserted']");
+	public static By generenameonshocard=By.xpath("//ul[@class='ng-star-inserted']/li[1]");
+	public static By maturityratingonshocard=By.xpath("//ul[@class='ng-star-inserted']/li[2]/span");
+	public static By videoduration=By.xpath("//ul[@class='ng-star-inserted']/li[3]");
+	public static By rowsliders=By.xpath("//div[@class='slider-content']");
+	public static By nextarrow=By.xpath("//div[@class='arrow-next-prev']/div[1]");
+	public static By backarrow=By.xpath("//span[@class='back-icon cursor']");
+	public static By promonames=By.xpath("//div[@class='card-footer flex justify-content-between ng-star-inserted']/div/h4");
+	public static By shoorseriesnameonprmocard=By.xpath("//div[@class='card-left video-promo']/p[1]");
+	public static By viewcount=By.xpath("//p[@class='views ng-star-inserted']");
+	public static By gudcount=By.xpath("//span[@class='gud-count']");
+	public static By mousehoveronpromocards=By.xpath("//div[@class='card-main promo-card-content sho-promocard']");
+	public static By studioname=By.xpath("//div[@class='card-left box-promo']/a/h6");
+	public static By followerscount=By.xpath("//div[@class='card-left box-promo']/p");
+	public static By followbutton=By.xpath("//app-follow-studios[@class='ng-star-inserted']");
+	public static By studiocards=By.xpath("//div[@class='card-main studio-card-content']");
+	public static By audionames=By.xpath("//div[@class='card-main audio-card-content']//div[2]/div/div/h4");
+	public static By composernameinaudio=By.xpath("//div[@class='card-left width-full']/span");
+	public static By audiocards=By.xpath("//div[@class='card-main audio-card-content']");
+	public static By promoshareicon=By.xpath("//div[@class='hover-share flex align-items-center justify-content-center ng-star-inserted']");
+	public static By promonamesnpromopage=By.xpath("//div[@class='card-left box-promo']/h4");
+	public static By viewcountnpromopage=By.xpath("//div[@class='card-right box-promo ng-star-inserted']/span");
+	public static By watchlistbutton=By.xpath("//div[@class='follow-btn ng-star-inserted']");
+	public static By tooltiponwatchlater=By.xpath("//div[@class='follow-btn ng-star-inserted']/app-watch-later/div/span");
+	public static By shoorspisoesnameincontinuewatching=By.xpath("//div[@class='card-left width-full box-promo']");
+	public static By continuewatchingcads=By.xpath("//div[@class='see-all-image cursor']");
+	public static By crossicononcontinuewatching=By.xpath("//div[@class='see-all-image cursor']/div/span");
 	
 	
 	public static WebElement streamingtabm()
