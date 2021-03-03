@@ -39,7 +39,7 @@ public class RunnerTest extends Base_setup
 	}
 
 	@AfterClass
-	public static void reports() {
+	public static void JVMreports() {
 		File reportOutputDirectory = new File("target/JVM");
 		List<String> jsonFiles = new ArrayList<>();
 		jsonFiles.add("target/cucumber-reports/Cucumber.json");
