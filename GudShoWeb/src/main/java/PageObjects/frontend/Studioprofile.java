@@ -5,6 +5,7 @@ package PageObjects.frontend;
 
 
 import java.awt.HeadlessException;
+
 import java.awt.Toolkit;
 import java.awt.datatransfer.DataFlavor;
 import java.awt.datatransfer.UnsupportedFlavorException;
@@ -37,49 +38,49 @@ public static Logger log=Logger.getLogger(Studioprofile.class.getName());
    
    
    
-   private static By studionameonstudiopage=By.xpath("//div[@class='edit-title']/h4");
-   private static By studiotype=By.xpath("//div[@class='video-type']");
-   private static By viewmorebutton=By.xpath("//div[@class='swiper-slide ng-star-inserted swiper-slide-active']/div/div/div/button[1]");
-   private static By followerscount=By.xpath("//div[@class='gudsho-counts flex justify-content-center']//div[2]");
-   private static By followbutton=By.xpath("//div[@class='followers-btn']/app-follow-studios/button");
-   private static By followbuttononheader=By.xpath("//div[@class='follow-btn']/app-follow-studios/button");
-   private static By shocount=By.xpath("//div[@class='gudsho-counts flex justify-content-center']//div[3]");
-   private static By seriescount=By.xpath("//div[@class='gudsho-counts flex justify-content-center']//div[4]");
-   private static By studioinfo=By.xpath("//div[@class='count-list cursor']");
-   private static By studiodescription=By.xpath("//p[@class='description']");
-   private static By studiodescrbackicon=By.xpath("//span[@class='studio-back-icon']");
-   private static By profileimage=By.xpath("//div[@class='profile-view']");
-   private static By shoorseriesnames=By.xpath("//div[@class='hover-sho-detail ng-star-inserted']/div/h5");
-   private static By shonameonmousehover=By.xpath("//div[@class='mat-ripple card-img cursor auto-image']");
-   private static By addtowatchlist=By.xpath("//div[@class='details-btns flex']/div[1]");
-   private static By shareshocard=By.xpath("//div[@class='details-btns flex']/div[2]");
-   private static By allnames=By.xpath("//div[@class='slider-content']/swiper/div/app-gud-card/div/div/div[2]");
-   private static By nocontentingeneres=By.xpath("//div[@class='text-center ng-star-inserted']/h3");
-   private static By rowtities=By.xpath("//div[@class='slider-header flex justify-content-between']/h4");
-   private static By generestext=By.xpath("//div[@class='slider-content']/swiper/div/ul/li");
-   private static By seeallgeneresbutton=By.xpath("//div[@class='text-center ng-star-inserted']/button");
-   private static By mousehoveronshoseriesnames=By.xpath("//div[@class='card-main vertical-card']/div[1]");
-   private static By shoname=By.xpath("//div[@class='swiper-slide ng-star-inserted swiper-slide-active']/div/div/div/h3/span[1]");
-   private static By nextsliderbutton=By.xpath("//div[@class='slider-content banner-slider-content ng-star-inserted']/swiper/div/div[1]");
-   private static By shoorseriesnamesinbanner=By.xpath("//div[@class='swiper-slide ng-star-inserted swiper-slide-active']/div/div/div/h3/span");
-   private static By shodescription=By.xpath("//div[@class='swiper-slide ng-star-inserted swiper-slide-active']/div/div/div/p");
-   private static By playtrailerbutton=By.xpath("//div[@class='swiper-slide ng-star-inserted swiper-slide-active']/div/div/div/button[2]");
-   private static By promonames=By.xpath("//div[@class='card-footer flex justify-content-between ng-star-inserted']/div/h4");
-   private static By promonamesoninrowtitle=By.xpath("//div[@class='card-left box-promo']/h4");
-   private static By mousehoveronpromocards=By.xpath("//div[@class='mat-ripple card-img']");
-   private static By audionames=By.xpath("//h4[@class='card-title text-control']");
-   private static By mousehoveronaudiotracks=By.xpath("//div[@class='card-main audio-card-content']/div[1]");
-   private static By promoshareicon=By.xpath("//div[@class='see-all-image cursor']/div[1]");
-   private static By followingtext=By.xpath("//div[@class='followers-btn']/app-follow-studios/button/span");
-   private static By unfollowstudioicon=By.xpath("//div[@class='unfollow-option ng-star-inserted']");
-   private static By unfollowbutton=By.xpath("//button[@class='mat-menu-item ng-star-inserted']/span");
+   public static By studionameonstudiopage=By.xpath("//div[@class='edit-title']/h4");
+   public static By studiotype=By.xpath("//div[@class='video-type']");
+   public static By viewmorebutton=By.xpath("//div[@class='swiper-slide ng-star-inserted swiper-slide-active']/div/div/div/button[1]");
+   public static By followerscount=By.xpath("//div[@class='gudsho-counts flex justify-content-center']//div[2]");
+   public static By followbutton=By.xpath("//div[@class='followers-btn']/app-follow-studios/button");
+   public static By followbuttononheader=By.xpath("//div[@class='follow-btn']/app-follow-studios/button");
+   public static By shocount=By.xpath("//div[@class='gudsho-counts flex justify-content-center']//div[3]");
+   public static By seriescount=By.xpath("//div[@class='gudsho-counts flex justify-content-center']//div[4]");
+   public static By studioinfo=By.xpath("//div[@class='count-list cursor']");
+   public static By studiodescription=By.xpath("//p[@class='description']");
+   public static By studiodescrbackicon=By.xpath("//span[@class='studio-back-icon']");
+   public static By profileimage=By.xpath("//div[@class='profile-view']");
+   public static By shoorseriesnames=By.xpath("//div[@class='hover-sho-detail ng-star-inserted']/div/h5");
+   public static By shonameonmousehover=By.xpath("//div[@class='mat-ripple card-img cursor auto-image']");
+   public static By addtowatchlist=By.xpath("//div[@class='details-btns flex']/div[1]");
+   public static By shareshocard=By.xpath("//div[@class='details-btns flex']/div[2]");
+   public static By allnames=By.xpath("//div[@class='slider-content']/swiper/div/app-gud-card/div/div/div[2]");
+   public static By nocontentingeneres=By.xpath("//div[@class='text-center ng-star-inserted']/h3");
+   public static By rowtities=By.xpath("//div[@class='slider-header flex justify-content-between']/h4");
+   public static By generestext=By.xpath("//div[@class='slider-content']/swiper/div/ul/li");
+   public static By seeallgeneresbutton=By.xpath("//div[@class='text-center ng-star-inserted']/button");
+   public static By mousehoveronshoseriesnames=By.xpath("//div[@class='card-main vertical-card']/div[1]");
+   public static By shoname=By.xpath("//div[@class='swiper-slide ng-star-inserted swiper-slide-active']/div/div/div/h3/span[1]");
+   public static By nextsliderbutton=By.xpath("//div[@class='slider-content banner-slider-content ng-star-inserted']/swiper/div/div[1]");
+   public static By shoorseriesnamesinbanner=By.xpath("//div[@class='swiper-slide ng-star-inserted swiper-slide-active']/div/div/div/h3/span");
+   public static By shodescription=By.xpath("//div[@class='swiper-slide ng-star-inserted swiper-slide-active']/div/div/div/p");
+   public static By playtrailerbutton=By.xpath("//div[@class='swiper-slide ng-star-inserted swiper-slide-active']/div/div/div/button[2]");
+   public static By promonames=By.xpath("//div[@class='card-footer flex justify-content-between ng-star-inserted']/div/h4");
+   public static By promonamesoninrowtitle=By.xpath("//div[@class='card-left box-promo']/h4");
+   public static By mousehoveronpromocards=By.xpath("//div[@class='mat-ripple card-img']");
+   public static By audionames=By.xpath("//h4[@class='card-title text-control']");
+   public static By mousehoveronaudiotracks=By.xpath("//div[@class='card-main audio-card-content']/div[1]");
+   public static By promoshareicon=By.xpath("//div[@class='see-all-image cursor']/div[1]");
+   public static By followingtext=By.xpath("//div[@class='followers-btn']/app-follow-studios/button/span");
+   public static By unfollowstudioicon=By.xpath("//div[@class='unfollow-option ng-star-inserted']");
+   public static By unfollowbutton=By.xpath("//button[@class='mat-menu-item ng-star-inserted']/span");
    
    //Share and Follow
-   private static By studiofacebookshare=By.xpath("//ul[@class='shocial-links']/li[1]");
-   private static By studiotwittershare=By.xpath("//ul[@class='shocial-links']/li[2]");
-   private static By studiowatsappshare=By.xpath("//ul[@class='shocial-links']/li[3]");
-   private static By studiocopylinkshare=By.xpath("//ul[@class='shocial-links']/li[4]");
-   private static By followstudio=By.xpath("//ul[@class='shocial-links follow-link-list']/li");
+   public static By studiofacebookshare=By.xpath("//ul[@class='shocial-links']/li[1]");
+   public static By studiotwittershare=By.xpath("//ul[@class='shocial-links']/li[2]");
+   public static By studiowatsappshare=By.xpath("//ul[@class='shocial-links']/li[3]");
+   public static By studiocopylinkshare=By.xpath("//ul[@class='shocial-links']/li[4]");
+   public static By followstudio=By.xpath("//ul[@class='shocial-links follow-link-list']/li");
    
    
    public static WebElement studionameonstudiopagem()
