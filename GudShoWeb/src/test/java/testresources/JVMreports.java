@@ -1,4 +1,4 @@
-package Resources;
+package testresources;
 
 import java.io.File;
 import java.util.ArrayList;
