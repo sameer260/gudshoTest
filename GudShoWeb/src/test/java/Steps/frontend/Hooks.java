@@ -12,6 +12,7 @@ import java.io.File;
 
 
 
+
 import java.io.IOException;
 
 import org.apache.commons.io.FileUtils;
@@ -47,7 +48,7 @@ public class Hooks extends Base_setup {
 	static Loginandsignup ls=new Loginandsignup();
 	
 	public static String actual;
-	@Before("~@nohook")
+	@Before("not @nohook")
 	public static void loginapplication() throws InterruptedException, IOException
 	{
 		Base_setup.intiliazedriver();
@@ -72,25 +73,14 @@ public class Hooks extends Base_setup {
 			 }
 	}
 	
-	@After(order=0)
-	public void teardown()
-	{
-		driver.close();
-		
-	}
-	@After(order=1)
-	public void screenshotm(Scenario scenario) throws IOException 
-	{
-		if(scenario.isFailed())
-		{
-			String scenarioname=scenario.getName();
-			TakesScreenshot ts=(TakesScreenshot)driver;
-			File source=ts.getScreenshotAs(OutputType.FILE);
-			String destinationpath=System.getProperty("user.dir")+"\\screenshotsfolder\\"+ scenarioname+".png";
-			FileUtils.copyFile(source, new File(destinationpath));
-			//com.cucumber.listener.Reporter.addScreenCaptureFromPath(destinationpath.toString());
-			
-		}
+	@After()
+	public void tearDown(Scenario scenario) {
+	    if (scenario.isFailed()) {
+	            final byte[] screenshot = ((TakesScreenshot) driver)
+	                        .getScreenshotAs(OutputType.BYTES);
+	            scenario.embed(screenshot, "image/png"); //stick it in the report
+	    }
+	    driver.close();
 	}
 
 }

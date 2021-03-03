@@ -32,7 +32,6 @@ public class CreateTitle extends Base_setup {
 	public static List<WebElement> AllSectionsInCreateSho;
 	
 	
-	
 	//First Section "NAME YOUR SHO OR SERIES"
 	
 	@FindBy(id="id-0")

@@ -4,7 +4,7 @@ Feature: This is to test the paywall feature
 Background: Pre-requsit for paywall
 Given Launch the browser and naviagate to home page
 	
-@End2End
+
 Scenario Outline: Verify add to watchlist feature on sho detail page 
 	When search <searchName> sho or series or studio 
 	Then click on add to watchlist button from sho detail page 

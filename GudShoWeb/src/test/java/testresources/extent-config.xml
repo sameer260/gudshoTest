@@ -23,7 +23,7 @@
     <timeFormat>HH:mm:ss</timeFormat>
     
     <timestamp></timestamp>
-    
+
     <!-- custom javascript -->
     <scripts>
       <![CDATA[
