@@ -30,28 +30,28 @@ public class Shareandfollow extends Base_setup
 {
 	
 	public static Logger log=Logger.getLogger(Shareandfollow.class.getName());
-	private static By facebookshare=By.xpath("//div[@class='clearfix']/app-gud-share/ul/li[1]");
-	private static By twittershare=By.xpath("//div[@class='clearfix']/app-gud-share/ul/li[2]");
-	private static By whatsappshare=By.xpath("//div[@class='clearfix']/app-gud-share/ul/li[3]");
-	private static By copylinkshare=By.xpath("//div[@class='clearfix']/app-gud-share/ul/li[4]");
-	private static By facebookusername=By.id("email");
-	private static By facebookpassword=By.id("pass");
-	private static By facebooklogin=By.name("login");
-	private static By recomendedstudio=By.xpath("//span[@class='main']");
-	private static By postfacebook=By.name("__CONFIRM__");
-	private static By twitterusername=By.name("session[username_or_email]");
-	private static By twitterpassword=By.name("session[password]");
-	private static By twittersigin=By.xpath("//span[text()='Log in']");
-	private static By twittertewwtbutton=By.xpath("//span[contains(text(),'Tweet')]");
-	private static By whatsappbutton=By.id("action-button");
-	private static By linktext=By.className("_2y_4");
-	private static By promofacebookshare=By.xpath("//div[@class='clearfix']/app-gud-share/ul/li[1]");
-	private static By promotwittershare=By.xpath("//div[@class='clearfix']/app-gud-share/ul/li[2]");
-	private static By promowatsappshare=By.xpath("//div[@class='clearfix']/app-gud-share/ul/li[3]");	
-	private static By promocopylinkshare=By.xpath("//div[@class='clearfix']/app-gud-share/ul/li[4]");
-	private static By closesharepopup=By.xpath("//div[@class='mat-dialog-header']/div");
-	private static By audioshare=By.xpath("//button[@data-plyr='share']");
-	private static By sharepopup=By.xpath("//div[@class='cdk-overlay-pane delete-popup feeds-share']");
+	public static By facebookshare=By.xpath("//div[@class='clearfix']/app-gud-share/ul/li[1]");
+	public static By twittershare=By.xpath("//div[@class='clearfix']/app-gud-share/ul/li[2]");
+	public static By whatsappshare=By.xpath("//div[@class='clearfix']/app-gud-share/ul/li[3]");
+	public static By copylinkshare=By.xpath("//div[@class='clearfix']/app-gud-share/ul/li[4]");
+	public static By facebookusername=By.id("email");
+	public static By facebookpassword=By.id("pass");
+	public static By facebooklogin=By.name("login");
+	public static By recomendedstudio=By.xpath("//span[@class='main']");
+	public static By postfacebook=By.name("__CONFIRM__");
+	public static By twitterusername=By.name("session[username_or_email]");
+	public static By twitterpassword=By.name("session[password]");
+	public static By twittersigin=By.xpath("//span[text()='Log in']");
+	public static By twittertewwtbutton=By.xpath("//span[contains(text(),'Tweet')]");
+	public static By whatsappbutton=By.id("action-button");
+	public static By linktext=By.className("_2y_4");
+	public static By promofacebookshare=By.xpath("//div[@class='clearfix']/app-gud-share/ul/li[1]");
+	public static By promotwittershare=By.xpath("//div[@class='clearfix']/app-gud-share/ul/li[2]");
+	public static By promowatsappshare=By.xpath("//div[@class='clearfix']/app-gud-share/ul/li[3]");	
+	public static By promocopylinkshare=By.xpath("//div[@class='clearfix']/app-gud-share/ul/li[4]");
+	public static By closesharepopup=By.xpath("//div[@class='mat-dialog-header']/div");
+	public static By audioshare=By.xpath("//button[@data-plyr='share']");
+	public static By sharepopup=By.xpath("//div[@class='cdk-overlay-pane delete-popup feeds-share']");
 	
 	public static void recomendedstudiom()
 	{

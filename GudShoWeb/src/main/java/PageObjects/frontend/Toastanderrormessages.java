@@ -8,13 +8,13 @@ import Resources.Base_setup;
 public class Toastanderrormessages extends Base_setup {
 
 	
-	private static By toastmessage=By.xpath("//div[@id='toast-container']//div//div");
-	private static By alertdailog=By.xpath("//div[@role='alertdialog']");
-	private static By erroralert=By.xpath("//div[@id='toast-container']/div/div");
-	private static By errormessage=By.xpath("//div[@class='error ng-star-inserted']");
-	private static By doberrormessage=By.xpath("//div[@class='error profile-dob ng-star-inserted']");
-	private static By namefiederrormsg=By.xpath("//div[@class='error ng-star-inserted'][2]");
-	private static By toastmessageclose=By.xpath("//div[@id='toast-container']//div//button");
+	public static By toastmessage=By.xpath("//div[@id='toast-container']//div//div");
+	public static By alertdailog=By.xpath("//div[@role='alertdialog']");
+	public static By erroralert=By.xpath("//div[@id='toast-container']/div/div");
+	public static By errormessage=By.xpath("//div[@class='error ng-star-inserted']");
+	public static By doberrormessage=By.xpath("//div[@class='error profile-dob ng-star-inserted']");
+	public static By namefiederrormsg=By.xpath("//div[@class='error ng-star-inserted'][2]");
+	public static By toastmessageclose=By.xpath("//div[@id='toast-container']//div//button");
 	
 	public static WebElement toastmessagem() throws InterruptedException
 	{

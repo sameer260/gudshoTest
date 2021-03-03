@@ -23,7 +23,11 @@
     <timeFormat>HH:mm:ss</timeFormat>
     
     <timestamp></timestamp>
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> branch 'testBranchSameer' of https://github.com/sameer260/gudshoTest.git
     <!-- custom javascript -->
     <scripts>
       <![CDATA[

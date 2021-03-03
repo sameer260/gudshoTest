@@ -1,0 +1,136 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-03T09:34:14.805Z",
+        "before": [
+          {
+            "result": {
+              "duration": 29897975600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.loginapplication()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "To check the Studio info including the followers count,sho and series count",
+        "description": "",
+        "id": "functionality-to-studio-profile-frontend;to-check-the-studio-info-including-the-followers-count-sho-and-series-count;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 89900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.screenshotm(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 149644300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1417148600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "In search enter sameer and select wanted Sameer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sameer",
+                  "offset": 16
+                },
+                {
+                  "val": "Sameer",
+                  "offset": 41
+                }
+              ],
+              "location": "Studioprofilesteps.in_search_enter_and_select_wanted(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1790427100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "It should redirect to the correct Sameer page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sameer",
+                  "offset": 34
+                }
+              ],
+              "location": "Studioprofilesteps.it_should_redirect_to_the_correct_page(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 339094900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "verify all the studiodetails are showing in the page",
+            "match": {
+              "location": "Studioprofilesteps.verify_all_the_studiodetails_are_showing_in_the_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 77525500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on the studio info",
+            "match": {
+              "location": "Studioprofilesteps.click_on_the_studio_info()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 266640800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "See studioinfo and click back",
+            "match": {
+              "location": "Studioprofilesteps.see_studioinfo_and_click_back()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@fail1"
+          }
+        ]
+      }
+    ],
+    "name": "Functionality to Studio profile frontend",
+    "description": "",
+    "id": "functionality-to-studio-profile-frontend",
+    "keyword": "Feature",
+    "uri": "file:Features/Frontend/BStudioprofile.feature",
+    "tags": []
+  }
+]

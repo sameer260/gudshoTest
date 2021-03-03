@@ -22,24 +22,24 @@ public class videoandaudioPlayer extends Base_setup
 {
    public static Logger log=Logger.getLogger(videoandaudioPlayer.class.getName());
   
-   private static By clapsymbolinplayer=By.xpath("//div[@class='player-clap singup-pops-player']");
-   private static By shoorseriesnameinplayer=By.xpath("//div[@class='video-titles ng-star-inserted']/div[2]/h2");
-   private static By mousehoveronplayer=By.xpath("//div[@class='plyr__poster']");
-   private static By closebuttoninplayer=By.xpath("//div[@id='inner-video']/button");
-   private static By promonameonplayer=By.xpath("//span[@class='season-details ng-star-inserted']");
-   private static By fastforward=By.xpath("//div[@class='center_control']/button[4]");
-   private static By getDuration=By.xpath("//div[@class='center_left']/div[1]");
-   private static By currentduration=By.xpath("//div[@aria-label='Current time']");
+   public static By clapsymbolinplayer=By.xpath("//div[@class='player-clap singup-pops-player']");
+   public static By shoorseriesnameinplayer=By.xpath("//div[@class='video-titles ng-star-inserted']/div[2]/h2");
+   public static By mousehoveronplayer=By.xpath("//div[@class='plyr__poster']");
+   public static By closebuttoninplayer=By.xpath("//div[@id='inner-video']/button");
+   public static By promonameonplayer=By.xpath("//span[@class='season-details ng-star-inserted']");
+   public static By fastforward=By.xpath("//div[@class='center_control']/button[4]");
+   public static By getDuration=By.xpath("//div[@class='center_left']/div[1]");
+   public static By currentduration=By.xpath("//div[@aria-label='Current time']");
    
    //Mini Title
-   private static By shoorseriesnameinminititle=By.xpath("//div[@class='pause-title-detail']/h1");
-   private static By labelsonminititle=By.xpath("//div[@class='sho-hints ng-star-inserted']/ul/li/span");
-   private static By studionameonminititle=By.xpath("//div[@class='studio-name']");
-   private static By descrtioninminititle=By.xpath("//span[@class='desc']");
-   private static By buyorplaybuttononminititle=By.xpath("//ul[@class='shocial-ticket-actions']/app-gud-play-button/ul/li");
-   private static By watchlistbuttononminititle=By.xpath("//li[@class='watch-lists banner-watch-lists']");
-   private static By nextpromobutton=By.xpath("//button[@class='button is-icon white large next-promo mat-button mat-button-base ng-star-inserted']");
-   private static By nextpromocancelbutton=By.xpath("//button[@class='button is-default secondary banner e-large next-promo cancel mat-button mat-button-base ng-star-inserted']");		   
+   public static By shoorseriesnameinminititle=By.xpath("//div[@class='pause-title-detail']/h1");
+   public static By labelsonminititle=By.xpath("//div[@class='sho-hints ng-star-inserted']/ul/li/span");
+   public static By studionameonminititle=By.xpath("//div[@class='studio-name']");
+   public static By descrtioninminititle=By.xpath("//span[@class='desc']");
+   public static By buyorplaybuttononminititle=By.xpath("//ul[@class='shocial-ticket-actions']/app-gud-play-button/ul/li");
+   public static By watchlistbuttononminititle=By.xpath("//li[@class='watch-lists banner-watch-lists']");
+   public static By nextpromobutton=By.xpath("//button[@class='button is-icon white large next-promo mat-button mat-button-base ng-star-inserted']");
+   public static By nextpromocancelbutton=By.xpath("//button[@class='button is-default secondary banner e-large next-promo cancel mat-button mat-button-base ng-star-inserted']");		   
    //Promo (Next promo,Next Episode,and promos on rightside)
    static By promonextbutton=By.xpath("//div[@class='gudsho-next-promo']");
    static By promonamesontightsidepanel=By.xpath("//div[@class='promo-list-right']/h4");
@@ -53,15 +53,15 @@ public class videoandaudioPlayer extends Base_setup
    
    
    //AudioPlayer
-   private static By heartsymbol = By.xpath("//*[@data-plyr='heart']");
-   private static By closeaudioplayer=By.xpath("//div[@class='center_right']/button[3]");
-   private static By audionameonplayer=By.xpath("//div[@class='music-content']/div[1]");
-   private static By gudshoicon=By.xpath("//div[@class='player-logo']");
-   private static By nexticononplayer=By.xpath("//div[@class='center_control']/button[3]");
-   private static By previousicononplayer=By.xpath("//div[@class='center_control']/button[1]");
-   private static By compsernameonplayer=By.xpath("//div[@class='gudsho-audio-statistics']/div");
-   private static By unfavouratetext=By.xpath("//div[@class='center_left']/button/span[1]");
-   private static By addfavoraitetext=By.xpath("//div[@class='center_left']/button/span[2]");
+   public static By heartsymbol = By.xpath("//*[@data-plyr='heart']");
+   public static By closeaudioplayer=By.xpath("//div[@class='center_right']/button[3]");
+   public static By audionameonplayer=By.xpath("//div[@class='music-content']/div[1]");
+   public static By gudshoicon=By.xpath("//div[@class='player-logo']");
+   public static By nexticononplayer=By.xpath("//div[@class='center_control']/button[3]");
+   public static By previousicononplayer=By.xpath("//div[@class='center_control']/button[1]");
+   public static By compsernameonplayer=By.xpath("//div[@class='gudsho-audio-statistics']/div");
+   public static By unfavouratetext=By.xpath("//div[@class='center_left']/button/span[1]");
+   public static By addfavoraitetext=By.xpath("//div[@class='center_left']/button/span[2]");
    static By playorpausebutton=By.xpath("//div[@class='center_control']/button[2]");
    static By playtooltip=By.xpath("//div[@class='center_control']/button[2]/span[2]");
    static By pausetooltip=By.xpath("//div[@class='center_control']/button[2]/span[1]");
