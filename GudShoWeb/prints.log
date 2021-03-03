@@ -23,3 +23,10 @@ Followers
 2021-03-03 15:27:40 INFO  Studioprofilesteps:105 - The sho or series added to the watch list is :RRR-2
 2021-03-03 15:27:41 INFO  Toastmessageanderrormessagesteps:36 - Expected toast message:Rrr-2 has been added to watchlist
 2021-03-03 15:27:41 INFO  Toastmessageanderrormessagesteps:37 - Actual Toast message displayed as:Rrr-2 has been removed from watchlist
+2021-03-03 16:28:28 INFO  Studioprofilesteps:57 - Actual Studio name on the studio detail page:Sameer
+2021-03-03 16:28:28 INFO  Studioprofilesteps:58 - Expected Studio name is:Sameer
+2021-03-03 16:28:35 INFO  Studioprofile:140 - Sho or series name which is going to add to atch list is:RRR-2
+2021-03-03 16:28:38 INFO  Studioprofile:146 - Sho or series name added to watch list is :RRR-2
+2021-03-03 16:28:38 INFO  Studioprofilesteps:105 - The sho or series added to the watch list is :RRR-2
+2021-03-03 16:28:39 INFO  Toastmessageanderrormessagesteps:36 - Expected toast message:Rrr-2 has been added to watchlist
+2021-03-03 16:28:39 INFO  Toastmessageanderrormessagesteps:37 - Actual Toast message displayed as:Rrr-2 has been added to watchlist
