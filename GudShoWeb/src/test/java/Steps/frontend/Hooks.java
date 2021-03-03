@@ -13,6 +13,7 @@ import java.io.File;
 
 
 
+
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -41,7 +42,7 @@ import Resources.Base_setup;
 import cucumber.api.Scenario;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
-import testresources.extentreportsgenerate;
+//import testresources.extentreportsgenerate;
 
 
 
@@ -85,8 +86,8 @@ public class Hooks extends Base_setup {
 	    }
 	    
 	    
-        extentreportsgenerate.createTest(scenario);
-		extentreportsgenerate.writeareport();
+       /* extentreportsgenerate.createTest(scenario);
+		extentreportsgenerate.writeareport();*/
 	    driver.close();
 	}
 	
