@@ -1,15 +1,15 @@
 package resources;
-/*package testresources;
+
 
 import java.io.File;
 import java.io.IOException;
 
-import org.apache.commons.io.FileUtils;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
 
 import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+import com.aventstack.extentreports.reporter.configuration.Protocol;
+import com.aventstack.extentreports.reporter.configuration.Theme;
 
 import Resources.Base_setup;
 import cucumber.api.Scenario;
@@ -24,9 +24,19 @@ public extentreportsgenerate(String reportlocation)
 	htmlreporter=new ExtentHtmlReporter(new File(reportlocation));
 	extentreport=new ExtentReports();
 	extentreport.attachReporter(htmlreporter);
+	htmlreporter.config().setCSS("css-string");
+	htmlreporter.config().setDocumentTitle("Web Automation");
+	htmlreporter.config().setEncoding("utf-8");
+	htmlreporter.config().setJS("js-string");
+	htmlreporter.config().setProtocol(Protocol.HTTPS);
+	htmlreporter.config().setReportName("QA-Cucumber Framework");
+	htmlreporter.config().setTheme(Theme.DARK);
+	htmlreporter.config().setTimeStampFormat("MMM dd, yyyy HH:mm:ss");
+	
+	
 }
 
-public static void createTest(Scenario scenario) throws IOException
+public static void createTest(Scenario scenario,String screenshotpath) throws IOException, NoSuchFieldException, SecurityException, IllegalArgumentException, IllegalAccessException
 {
 	if(scenario !=null)
 	{
@@ -37,18 +47,13 @@ public static void createTest(Scenario scenario) throws IOException
 			extentreport.createTest(testname).pass("Passed");
 			break;
 		case FAILED:
-			extentreport.createTest(testname).fail("Failed");
+			extentreport.createTest(testname).fail("Failed").addScreenCaptureFromPath(screenshotpath);
 		default:
 			break;
 			
 		}
 	}
 
-}
-
-public static String screenshotm(String screenshotpath) throws IOException 
-{ 
-	return "file:///"+screenshotpath;
 }
 public static void writeareport()
 {
@@ -59,4 +64,4 @@ public static void writeareport()
 }
 
 
-}*/
+}

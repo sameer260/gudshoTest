@@ -21,8 +21,7 @@ import java.util.Date;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
-
-
+import org.openqa.selenium.remote.service.DriverService;
 
 import PageObjects.frontend.Loginandsignup;
 import PageObjects.frontend.Toastanderrormessages;
@@ -43,6 +42,7 @@ import cucumber.api.Scenario;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
 //import testresources.extentreportsgenerate;
+import resources.extentreportsgenerate;
 
 
 
@@ -55,6 +55,7 @@ public class Hooks extends Base_setup {
 	@Before("not @nohook")
 	public static void loginapplication() throws InterruptedException, IOException
 	{
+		
 		Base_setup.intiliazedriver();
 		    ls.signinlinkm().click();
 		    
@@ -78,17 +79,32 @@ public class Hooks extends Base_setup {
 	}
 	
 	@After
-	public void tearDown(Scenario scenario) throws IOException {
-	    if (scenario.isFailed()) {
+	public void tearDown(Scenario scenario) throws NoSuchFieldException, SecurityException, IllegalArgumentException, IllegalAccessException, IOException {
+		
+		if (scenario.isFailed()) {
 	            final byte[] screenshot = ((TakesScreenshot) driver)
 	                        .getScreenshotAs(OutputType.BYTES);
-	            scenario.embed(screenshot, "image/png"); //stick it in the report     
-	    }
-	    
-	    
-       /* extentreportsgenerate.createTest(scenario);
-		extentreportsgenerate.writeareport();*/
+	            scenario.embed(screenshot, "image/png"); //stick it in the report
+	            
+	  }
+		Hooks.extentreport(scenario);
 	    driver.close();
+	}	
+	
+	public static void extentreport(Scenario scenario) throws NoSuchFieldException, SecurityException, IllegalArgumentException, IllegalAccessException, IOException
+	{
+		
+		String destinationpath=System.getProperty("user.dir")+"\\screenshotsfolder\\"+ scenario.getName()+".png";
+		if(scenario.isFailed())
+		{
+			TakesScreenshot ts=(TakesScreenshot)driver;
+			File source=ts.getScreenshotAs(OutputType.FILE);
+			FileUtils.copyFile(source, new File(destinationpath));
+		}
+		extentreportsgenerate.createTest(scenario,destinationpath);
+		extentreportsgenerate.writeareport();
+		
+		
 	}
 	
 	

@@ -13,7 +13,6 @@ import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.runner.RunWith;
 
-import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 
 import Resources.Base_setup;
 import cucumber.api.CucumberOptions;
@@ -21,15 +20,16 @@ import cucumber.api.junit.Cucumber;
 import net.masterthought.cucumber.Configuration;
 import net.masterthought.cucumber.ReportBuilder;
 import net.masterthought.cucumber.sorting.SortingMethod;
-import resources.extentgeneration;
+
 //import testresources.extentreportsgenerate;
+import resources.extentreportsgenerate;
 
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features= "src/test/java/Features/Frontend/BStudioprofile.feature",
+@CucumberOptions(features= "src/test/java/Features",
 glue={"Steps"},
 tags= {"@test1"},
-plugin = {//"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
+plugin = {
 		"pretty","json:target/cucumber-reports/Cucumber.json", 
 		"junit:target/cucumber-reports/Cucumber.xml",
 		"html:target/cucumber-reports"},
@@ -44,18 +44,16 @@ public class RunnerTest extends Base_setup
 	
 	@BeforeClass
 	public static void logger() {
-
-		 //new extentreportsgenerate("Extenreports//Testreport.html");
-		ExtentHtmlReporter html =new ExtentHtmlReporter("ExtentRepots/Extent.html");
-		html.loadXMLConfig("src/test/java/features/extent-config.xml");
-		
+		String timestamp=new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
+		new extentreportsgenerate("Extenreports//Testreport"+timestamp+".html");
 		PropertyConfigurator.configure("log4j.properties");
 
 	}
 	
-   
+
 	@AfterClass
 	public static void JVMreports() {
+		
 		
 		File reportOutputDirectory = new File("target/JVM");
 		List<String> jsonFiles = new ArrayList<>();
