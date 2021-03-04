@@ -12,8 +12,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import PageObjects.frontend.MyProfile_Objects;
 import Resources.Base_setup;
-import cucumber.api.java.en.And;
-import cucumber.api.java.en.Then;
+import io.cucumber.java.en.And;
+import io.cucumber.java.en.Then;
 
 
 public class MyProfile extends Base_setup {

@@ -12,7 +12,7 @@ import PageObjects.frontend.Studioprofile;
 import PageObjects.frontend.Toastanderrormessages;
 import PageObjects.frontend.videoandaudioPlayer;
 import Resources.Base_setup;
-import cucumber.api.java.en.Then;
+import io.cucumber.java.en.Then;
 
 public class Incompleteprofile extends Base_setup
 {

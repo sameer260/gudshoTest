@@ -7,8 +7,8 @@ import org.apache.log4j.Logger;
 
 import PageObjects.frontend.Toastanderrormessages;
 import Resources.Base_setup;
-import cucumber.api.java.en.And;
-import cucumber.api.java.en.Then;
+import io.cucumber.java.en.And;
+import io.cucumber.java.en.Then;
 
 
 public class Toastmessageanderrormessagesteps extends Base_setup

@@ -27,10 +27,10 @@ import PageObjects.frontend.Toastanderrormessages;
 import PageObjects.frontend.socialpageandsearch;
 import PageObjects.frontend.videoandaudioPlayer;
 import Resources.Base_setup;
-import cucumber.api.java.en.And;
-import cucumber.api.java.en.Given;
-import cucumber.api.java.en.Then;
-import cucumber.api.java.en.When;
+import io.cucumber.java.en.And;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
 import junit.framework.Assert;
 
 public class Studioprofilesteps extends Base_setup

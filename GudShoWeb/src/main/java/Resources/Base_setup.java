@@ -29,6 +29,7 @@ public class Base_setup
 	//public static final String USERNAME = "contus1";
 	//public static final String AUTOMATE_KEY = "f4xtU1SEDvuP2Ad27yxy";
     //public static final String URL = "https://" + USERNAME + ":" + AUTOMATE_KEY + "@hub-cloud.browserstack.com/wd/hub";
+	 
 	public static WebDriver intiliazedriver() throws IOException
 	{
 	Properties prop=new Properties();

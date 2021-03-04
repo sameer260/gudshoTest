@@ -14,6 +14,8 @@ import java.io.File;
 
 
 
+
+
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -38,11 +40,9 @@ import Resources.Base_setup;
 
 
 
-import cucumber.api.Scenario;
-import cucumber.api.java.After;
-import cucumber.api.java.Before;
+
 //import testresources.extentreportsgenerate;
-import resources.extentreportsgenerate;
+
 
 
 
@@ -52,7 +52,7 @@ public class Hooks extends Base_setup {
 	static Loginandsignup ls=new Loginandsignup();
 	
 	public static String actual;
-	@Before("not @nohook")
+	@io.cucumber.java.Before("not @nohook")
 	public static void loginapplication() throws InterruptedException, IOException
 	{
 		
@@ -78,8 +78,8 @@ public class Hooks extends Base_setup {
 			 }
 	}
 	
-	@After
-	public void tearDown(Scenario scenario) throws NoSuchFieldException, SecurityException, IllegalArgumentException, IllegalAccessException, IOException {
+	@io.cucumber.java.After
+	public void tearDown(io.cucumber.java.Scenario scenario) throws NoSuchFieldException, SecurityException, IllegalArgumentException, IllegalAccessException, IOException {
 		
 		if (scenario.isFailed()) {
 	            final byte[] screenshot = ((TakesScreenshot) driver)
@@ -87,11 +87,11 @@ public class Hooks extends Base_setup {
 	            scenario.embed(screenshot, "image/png"); //stick it in the report
 	            
 	  }
-		Hooks.extentreport(scenario);
+		//Hooks.extentreport(scenario);
 	    driver.close();
 	}	
 	
-	public static void extentreport(Scenario scenario) throws NoSuchFieldException, SecurityException, IllegalArgumentException, IllegalAccessException, IOException
+	/*public static void extentreport(Scenario scenario) throws NoSuchFieldException, SecurityException, IllegalArgumentException, IllegalAccessException, IOException
 	{
 		
 		String destinationpath=System.getProperty("user.dir")+"\\screenshotsfolder\\"+ scenario.getName()+".png";
@@ -105,7 +105,7 @@ public class Hooks extends Base_setup {
 		extentreportsgenerate.writeareport();
 		
 		
-	}
+	}*/
 	
 	
 }

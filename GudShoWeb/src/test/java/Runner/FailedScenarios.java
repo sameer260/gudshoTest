@@ -3,6 +3,7 @@ package Runner;
 import java.io.File;
 
 
+
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -17,8 +18,8 @@ import org.junit.runner.RunWith;
 //import com.vimalselvam.cucumber.listener.Reporter;
 
 import Resources.Base_setup;
-import cucumber.api.CucumberOptions;
-import cucumber.api.junit.Cucumber;
+import io.cucumber.junit.Cucumber;
+import io.cucumber.junit.CucumberOptions;;
 
 @RunWith(Cucumber.class)	
 @CucumberOptions(features= "@target/rerun.txt",
