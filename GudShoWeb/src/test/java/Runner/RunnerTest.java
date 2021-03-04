@@ -29,7 +29,7 @@ import resources.extentreportsgenerate;
 @CucumberOptions(features= "src/test/java/Features",
 glue={"Steps"},
 tags= {"@test1"},
-plugin = {
+plugin = {"com",
 		"pretty","json:target/cucumber-reports/Cucumber.json", 
 		"junit:target/cucumber-reports/Cucumber.xml",
 		"html:target/cucumber-reports"},
