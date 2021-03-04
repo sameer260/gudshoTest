@@ -1,10 +1,7 @@
 package Runner;
 
 import java.io.File;
-
-
-
-
+import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
@@ -23,6 +20,7 @@ import io.cucumber.junit.CucumberOptions;
 import net.masterthought.cucumber.Configuration;
 import net.masterthought.cucumber.ReportBuilder;
 import net.masterthought.cucumber.sorting.SortingMethod;
+import resources.extentreportsgenerate;
 
 //import testresources.extentreportsgenerate;
 
@@ -43,7 +41,7 @@ plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
 					
 public class RunnerTest extends Base_setup
 {	
-	
+	ExtentSparkReporter reporter;
 	
 	@BeforeClass
 	public static void logger() {
@@ -57,9 +55,10 @@ public class RunnerTest extends Base_setup
 	
 	
 	@AfterClass
-	public static void JVMreports() {
+	public static void JVMreports() throws IOException {
 		
 		
+		extentreportsgenerate.reporter.loadXMLConfig("src/test/resources/spark-config.xml");
 		File reportOutputDirectory = new File("target/JVM");
 		List<String> jsonFiles = new ArrayList<>();
 		jsonFiles.add("target/cucumber-reports/Cucumber.json");
