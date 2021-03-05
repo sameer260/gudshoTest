@@ -2,7 +2,6 @@ package Steps.frontend;
 
 import static org.junit.Assert.assertEquals;
 
-
 import static org.junit.Assert.assertNotEquals;
 
 import org.apache.log4j.Logger;
@@ -16,8 +15,8 @@ import PageObjects.frontend.Shoorseriesdetailpage;
 import PageObjects.frontend.Studioprofile;
 import PageObjects.frontend.Toastanderrormessages;
 import Resources.Base_setup;
-import io.cucumber.java.en.And;
-import io.cucumber.java.en.Then;
+import cucumber.api.java.en.And;
+import cucumber.api.java.en.Then;
 
 public class Billingdetailssteps extends Base_setup {
 	
