@@ -3,6 +3,7 @@ package Steps.frontend;
 import static org.junit.Assert.assertEquals;
 
 
+
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -12,7 +13,7 @@ import PageObjects.frontend.Studioprofile;
 import PageObjects.frontend.Toastanderrormessages;
 import PageObjects.frontend.videoandaudioPlayer;
 import Resources.Base_setup;
-import io.cucumber.java.en.Then;
+
 
 public class Incompleteprofile extends Base_setup
 {
