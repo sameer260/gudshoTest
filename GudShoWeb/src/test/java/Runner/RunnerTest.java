@@ -2,7 +2,7 @@ package Runner;
 
 import java.io.File;
 
-import java.io.IOException;
+
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
@@ -13,29 +13,23 @@ import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.runner.RunWith;
 
-import com.aventstack.extentreports.reporter.ExtentBDDReporter;
-import com.vimalselvam.cucumber.listener.ExtentProperties;
-import com.vimalselvam.cucumber.listener.Reporter;
 
 import Resources.Base_setup;
-import cucumber.api.java.After;
-import cucumber.api.java.Before;
-import io.cucumber.junit.Cucumber;
-import io.cucumber.junit.CucumberOptions;
+import cucumber.api.CucumberOptions;
+import cucumber.api.junit.Cucumber;
 import net.masterthought.cucumber.Configuration;
 import net.masterthought.cucumber.ReportBuilder;
 import net.masterthought.cucumber.sorting.SortingMethod;
-import resources.extentreportsgenerate;
 
 //import testresources.extentreportsgenerate;
-
+import resources.extentreportsgenerate;
 
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features= "src/test/resources/Features",
+@CucumberOptions(features= "src/test/java/Features",
 glue={"Steps"},
 tags= {"@test1"},
-plugin = {"com.vimalselvam.cucumber.listener.ExtentCucumberFormatter:",
+plugin = {
 		"pretty","json:target/cucumber-reports/Cucumber.json", 
 		"junit:target/cucumber-reports/Cucumber.xml",
 		"html:target/cucumber-reports"},
@@ -48,22 +42,20 @@ public class RunnerTest extends Base_setup
 {	
 	
 	
-	@Before
+	@BeforeClass
 	public static void logger() {
-		ExtentProperties extentprop=ExtentProperties.INSTANCE;
-		 String timestamp=new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
-		 extentprop.setReportPath("ExtentReports\\Report"+timestamp+".html");
+		String timestamp=new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
+		new extentreportsgenerate("Extenreports//Testreport"+timestamp+".html");
 		PropertyConfigurator.configure("log4j.properties");
 
 	}
 	
-	
-	@After
-	public static void JVMreports() throws IOException {
+
+	@AfterClass
+	public static void JVMreports() {
 		
 		
-		Reporter.loadXMLConfig(new File("src\\main\\java\\Resources\\extent-config.xml"));
-		/*File reportOutputDirectory = new File("target/JVM");
+		File reportOutputDirectory = new File("target/JVM");
 		List<String> jsonFiles = new ArrayList<>();
 		jsonFiles.add("target/cucumber-reports/Cucumber.json");
 		String buildNumber = "1";
@@ -75,7 +67,7 @@ public class RunnerTest extends Base_setup
 		configuration.addClassifications("Platform", "Windows 10");
 		configuration.setSortingMethod(SortingMethod.NATURAL);
 		ReportBuilder reportBuilder = new ReportBuilder(jsonFiles, configuration);
-		reportBuilder.generateReports();*/
+		reportBuilder.generateReports();
 		
 	 }
 
