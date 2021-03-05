@@ -17,7 +17,7 @@ import io.cucumber.java.en.Then;
 public class Incompleteprofile extends Base_setup
 {
 	WebDriverWait wait=new WebDriverWait(driver,20);
-	 @Then("^Try to buy a sho or series and it will ask to complete the profile$")
+	 @cucumber.api.java.en.Then("^Try to buy a sho or series and it will ask to complete the profile$")
 	 public void try_to_buy_a_sho_or_series_and_it_will_ask_to_complete_the_profile() throws Throwable {
 	        Shoorseriesdetailpage.playorbuybuttonm().click();
 	        wait.until(ExpectedConditions.visibilityOf(Toastanderrormessages.toastmessagem()));
