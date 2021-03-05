@@ -1,6 +1,7 @@
 package Runner;
 
 import java.io.File;
+
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -12,9 +13,13 @@ import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.runner.RunWith;
 
-import com.aventstack.extentreports.reporter.ExtentSparkReporter;
+import com.aventstack.extentreports.reporter.ExtentBDDReporter;
+import com.vimalselvam.cucumber.listener.ExtentProperties;
+import com.vimalselvam.cucumber.listener.Reporter;
 
 import Resources.Base_setup;
+import cucumber.api.java.After;
+import cucumber.api.java.Before;
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 import net.masterthought.cucumber.Configuration;
@@ -30,7 +35,7 @@ import resources.extentreportsgenerate;
 @CucumberOptions(features= "src/test/resources/Features",
 glue={"Steps"},
 tags= {"@test1"},
-plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
+plugin = {"com.vimalselvam.cucumber.listener.ExtentCucumberFormatter:",
 		"pretty","json:target/cucumber-reports/Cucumber.json", 
 		"junit:target/cucumber-reports/Cucumber.xml",
 		"html:target/cucumber-reports"},
@@ -41,25 +46,24 @@ plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
 					
 public class RunnerTest extends Base_setup
 {	
-	ExtentSparkReporter reporter;
 	
-	@BeforeClass
+	
+	@Before
 	public static void logger() {
-		//String timestamp=new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
-		//new extentreportsgenerate("Extenreports//Testreport"+timestamp+".html");
-		new ExtentSparkReporter("ExtentReports/reports.html");
-		
+		ExtentProperties extentprop=ExtentProperties.INSTANCE;
+		 String timestamp=new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
+		 extentprop.setReportPath("ExtentReports\\Report"+timestamp+".html");
 		PropertyConfigurator.configure("log4j.properties");
 
 	}
 	
 	
-	@AfterClass
+	@After
 	public static void JVMreports() throws IOException {
 		
 		
-		extentreportsgenerate.reporter.loadXMLConfig("src/test/resources/spark-config.xml");
-		File reportOutputDirectory = new File("target/JVM");
+		Reporter.loadXMLConfig(new File("src\\main\\java\\Resources\\extent-config.xml"));
+		/*File reportOutputDirectory = new File("target/JVM");
 		List<String> jsonFiles = new ArrayList<>();
 		jsonFiles.add("target/cucumber-reports/Cucumber.json");
 		String buildNumber = "1";
@@ -71,7 +75,7 @@ public class RunnerTest extends Base_setup
 		configuration.addClassifications("Platform", "Windows 10");
 		configuration.setSortingMethod(SortingMethod.NATURAL);
 		ReportBuilder reportBuilder = new ReportBuilder(jsonFiles, configuration);
-		reportBuilder.generateReports();
+		reportBuilder.generateReports();*/
 		
 	 }
 
